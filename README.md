@@ -77,7 +77,5 @@ Help me sort this out 😄
 
 Links: 
 - [Supabase](https://supabase.com/)
-- 
 - [Supabase Chrome Extension Documentation](https://supabase.com/docs/guides/auth/social-login/auth-google?platform=chrome-extensions)
-- 
 - [Google Cloud Console](https://console.cloud.google.com/)
