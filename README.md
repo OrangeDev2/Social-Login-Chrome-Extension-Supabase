@@ -1,5 +1,5 @@
 # SupaLogin Chrome Extension
-![logo](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/12556c20-4425-431f-9a10-a2a34f897ee4)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4762b2d1-53b6-4d98-90c3-8d4c42c6b72b)
 
 ## Unpacking Your Extension
 1. Fork this repository.
@@ -7,46 +7,46 @@
 3. Click "Load Unpacked" and select your repo directory.
 4. The extension should show up.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/0dbdc962-1d85-465d-84cb-7584a3cf9101)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/389e4866-14da-487f-a096-e765c99c43ca)
 
 ## Retrieving Your Google Credentials
 1. Go to [Google Cloud Console](https://console.cloud.google.com/) and create a project.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/2b434290-0212-4fb2-97fb-e77f1ac8fc82)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/2ba5a30a-af72-41b8-8d0b-499a635a54dd)
 
 2. Search for "APIs & Services" > "Credentials".
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4326bfdf-35b3-4867-82eb-484dd9ebcdcd)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/6b7eb2a1-4edb-4fdb-8b4f-76cd9caead2d)
 
 3. You must create your Consent Screen before creating Credentials for your Supabase Project.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4ae594ab-12a6-4255-9b7e-00585c4d1d5b)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/d90d990c-c3cd-4f49-a9ed-ccf6bd3e5075)
 
 4. Under "External", fill in App Information (App Name, Dev Email, Support Email should be sufficient) and select Scopes (3).
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/a22da943-1a19-4fff-8c11-3f72d6bf01fc)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/1bd278bd-6116-4873-a5eb-db3c0839ca6a)
 
 5. Now you can create Credentials.
     
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/e6eeb571-b95e-48bc-add9-c7469ccf3dcf)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/ba4202c1-1c3e-40a6-8f24-a05d2ffae0b8)
 
 6. Select "Application Type" > "Web Application" to generate your Client ID and Client Secret.
     
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/c5323547-71c4-4bae-bbb1-b998653421bc)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/7426fb7a-62a0-4706-952d-d6d1e3afdcb2)
 
 7. Select "Application Type" again > "Chrome Extension" to generate your Authorized Client ID. Get the Extension ID at `chrome://extensions/`.
     
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/d6ef8131-2c03-4a52-b516-2c7d09a98de8)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/58464bf3-bbcf-433f-b37d-e0866145f3b0)
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/736c4c99-022d-4fe0-8318-7074de09d748)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/dfa3393d-7a36-4960-81e6-920cb2624bcd)
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/553e6a57-d01f-4968-ba93-051b6667df89)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/f8f57529-7afa-4346-b043-7c6151fff253)
 
 ## Create a Supabase Project and Set Up Auth Flow
 1. Go to [Supabase](https://supabase.com/) and create your project.
 2. Hover and click the "Authentication" tab > "Providers" tab. Click on "Google Provider".
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/c69dbab5-f5d9-4bff-ba7e-0a669464bf03)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/baf2aaba-f06e-4e73-93d5-7579fd12c379)
 
 3. Fill in Client ID, Client Secret, and Authorized Client ID (Chrome Extension) from your Google Cloud Console.
 4. Save!
@@ -54,24 +54,24 @@
 ## Editing Chrome Extension (Manifest.json, supaLogin.js)
 1. In `Manifest.json`, fill in the Authorized Client ID from your Supabase Project (where you filled it in) or Google Cloud Console.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/35708bd4-b4d5-487e-afda-9fa45e2ddfe5)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/050c852a-6256-4f61-8be4-ae60613a152d)
 
 2. In `supaLogin.js`, fill in the Supabase URL and Anon Key from your Supabase Settings > API.
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/68703a6c-eecb-4747-b5c3-b7637935480c)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4ffa4a05-c401-441a-9252-73edcbf4fa6c)
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/041e54a7-134d-43d5-a1e7-665db6130308)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/b67c5ae6-eaa0-45d9-b96e-62835c61753e)
 
 ## Updating the Extension and Testing Supabase Social Login
 1. Click the refresh logo to update your extension with the filled information.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/7defcb5f-41de-47bd-89a7-0bb4ae129711)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/ca180aaf-076d-415d-9725-c3c6665a47a2)
 
 2. Click the "Login with Supabase" button.
    
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/d2479bb4-9f3a-43cc-8202-10db3df295d6)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/ac4bbbf4-698c-46df-8e73-6ca5d4b63632)
 
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/292deddc-78a1-440d-b14f-645a6fa09f4a)
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/7e88f111-b352-4302-ba42-8a2caa5cea22)
 
 Help me sort this out 😄
 
