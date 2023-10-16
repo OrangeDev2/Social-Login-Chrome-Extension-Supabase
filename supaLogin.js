@@ -1,5 +1,5 @@
-const SUPABASE_KEY = "";
 const SUPABASE_URL = ""
+const SUPABASE_KEY = "";
 
 const { createClient } = supabase;
 supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
