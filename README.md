@@ -51,6 +51,11 @@
    
 ![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/ac4bbbf4-698c-46df-8e73-6ca5d4b63632)
 
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/ba0d4cd6-92e7-4eff-baf3-cbef1afb7b68)
+
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/2fe47261-1af8-44a1-8784-a51aff153de8)
+
+
 
 Links: 
 - [Supabase](https://supabase.com/)
