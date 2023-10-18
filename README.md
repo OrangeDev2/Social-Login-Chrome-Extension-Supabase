@@ -1,3 +1,7 @@
+# Follow Popup-Redirect Branch as an alternative solution if you cannot resolve below error:
+
+![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/7e88f111-b352-4302-ba42-8a2caa5cea22)
+
 # SupaLogin Chrome Extension
 ![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4762b2d1-53b6-4d98-90c3-8d4c42c6b72b)
 
