@@ -61,3 +61,5 @@ Links:
 - [Supabase](https://supabase.com/)
 - [Supabase Chrome Extension Documentation](https://supabase.com/docs/guides/auth/social-login/auth-google?platform=chrome-extensions)
 - [Google Cloud Console](https://console.cloud.google.com/)
+
+Note: Main branch is the implementation following https://supabase.com/docs/guides/auth/social-login/auth-google?platform=chrome-extensions, feel free to try it out but you might encounter the "impossible" error."
