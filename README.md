@@ -1,6 +1,9 @@
 # SupaLogin Chrome Extension
 ![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/4762b2d1-53b6-4d98-90c3-8d4c42c6b72b)
 
+(Photoshopped)
+Social Login with Supabase Auth in Chrome Extension (Firebase alternative)
+
 ## Unpacking Your Extension
 1. Fork this repository.
 2. Go to `chrome://extensions/`.
