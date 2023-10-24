@@ -31,8 +31,8 @@ Social Login with Supabase Auth in Chrome Extension (Firebase alternative)
    
 ![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/baf2aaba-f06e-4e73-93d5-7579fd12c379)
 
-3. Fill in Client ID and Client Secret from your Google Cloud Console.
-4. Save!
+3. Fill in Client ID and Client Secret from your Google Cloud Console (Ignore Authorized Client ID, this is the case with main branch only which have issues).
+4. In `SupaLogin.js`, fill in the Supabase URL and Anon Key from your Supabase Settings > API.
 
 <!--
 ## Editing Chrome Extension (Manifest.json, supaLogin.js)
@@ -42,8 +42,6 @@ Social Login with Supabase Auth in Chrome Extension (Firebase alternative)
 
 2. In `supaLogin.js`, fill in the Supabase URL and Anon Key from your Supabase Settings > API.
 -->
-
-![image](https://github.com/OrangeDev2/SupaLogin-Chrome-Extension/assets/47803678/b67c5ae6-eaa0-45d9-b96e-62835c61753e)
 
 ## Updating the Extension and Testing Supabase Social Login
 1. Click the refresh logo to update your extension with the filled information.
