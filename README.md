@@ -66,3 +66,4 @@ Links:
 - [Google Cloud Console](https://console.cloud.google.com/)
 
 Note: Main branch is the implementation following https://supabase.com/docs/guides/auth/social-login/auth-google?platform=chrome-extensions, feel free to try it out but you might encounter the "impossible" error.
+Note: URL Configuration works just fine for lone Chrome Extension however it does not work well with Web app and Chrome Extension as Redirect.  Filed Issue/Bug here https://github.com/supabase/supabase/issues/18290
